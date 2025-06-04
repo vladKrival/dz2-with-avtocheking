@@ -31,7 +31,7 @@ header span {
 
 .main-section {
     background: #fafaff;
-    padding: 60px 60px;
+    padding: 60px 0px;
     min-height: 100%;
     color: #303030;
     width: 1440px;
@@ -43,7 +43,7 @@ header span {
     font-weight: 700;
     font-size: 48px;
     padding-top: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
@@ -62,6 +62,7 @@ header span {
 
 
 .about-section {
+    padding: 100px 0px;
     background-color: #fff;
     /* Стили для второй секции */
 }
@@ -96,12 +97,8 @@ select {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
     gap: 0px;
-    padding: 20px;
+    padding: 0px 20px;
     list-style-image: url("/assets/solar_map-arrow-up-bold.svg");
     /* Стили для маркированного списка во второй секции */
 }
@@ -110,7 +107,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
-    padding: 20px;
+    padding: 0px 20px;
 
     /* Стили для нумерованного списка во второй секции */
 }
@@ -157,16 +154,16 @@ select {
 table {
     border-collapse: collapse; 
     border: 1 solid #95A1BB;
+    font-size: 14px;
     margin-bottom: 100px;
     /* Стили для таблицы */
 }
 
 th, td {
     font-weight: 400;
-    font-size: 14px;
     text-align: center;
     color: #303030;
-    padding: 11px 14px
+    padding: 12px 15px
     /* Стили для ячеек таблицы */
 }
 
@@ -178,7 +175,7 @@ footer {
     background: rgba(163, 167, 255, 0.3);
     width: 1440px;
     height: 70px;
-    padding: 26px 1px;
+    padding: 26px px;
     /* Стили для футера */
 }
 
