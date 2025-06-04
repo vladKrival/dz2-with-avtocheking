@@ -73,7 +73,7 @@ select {
     width: 150px;
     height: 36px;
     background: rgba(255, 255, 255, 0);
-    background-image: url("ep_arrow-down.svg");
+    background-image: url("/assets/ep_arrow-down.svg");
     background-repeat: no-repeat;
     background-position: right;
     appearance: none;
@@ -102,7 +102,7 @@ select {
     flex-direction: column;
     gap: 0px;
     padding: 20px;
-    list-style-image: url("solar_map-arrow-up-bold.svg");
+    list-style-image: url("/assets/solar_map-arrow-up-bold.svg");
     /* Стили для маркированного списка во второй секции */
 }
 
